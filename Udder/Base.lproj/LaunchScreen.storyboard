@@ -22,12 +22,21 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ajV-0W-i7l">
+                                <rect key="frame" x="372.5" y="741.5" width="41.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="A6N-5X-icB" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="FVo-HL-D9F"/>
+                            <constraint firstItem="ajV-0W-i7l" firstAttribute="centerX" secondItem="A6N-5X-icB" secondAttribute="centerX" constant="186.25" id="oVZ-re-l7h"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ajV-0W-i7l" secondAttribute="bottom" constant="100" id="omg-OB-nbY"/>
                             <constraint firstItem="A6N-5X-icB" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="sEa-wS-k4g"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ajV-0W-i7l" secondAttribute="trailing" id="vSa-iG-u9d"/>
                         </constraints>
                     </view>
                 </viewController>
